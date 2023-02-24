@@ -21,6 +21,7 @@ vars = {
   'chromium_git': 'https://chromium.googlesource.com',
   'swiftshader_git': 'https://swiftshader.googlesource.com',
   'dart_git': 'https://dart.googlesource.com',
+  'dart_archive' : 'https://github.com/dart-archive',
   'flutter_git': 'https://flutter.googlesource.com',
   'fuchsia_git': 'https://fuchsia.googlesource.com',
   'github_git': 'https://github.com',
@@ -305,7 +306,7 @@ deps = {
    Var('dart_git') + '/stack_trace.git' + '@' + Var('dart_stack_trace_tag'),
 
   'src/third_party/dart/third_party/pkg/stagehand':
-   Var('dart_git') + '/stagehand.git@e64ac90cac508981011299c4ceb819149e71f1bd',
+   Var('dart_archive') + '/stagehand.git@e64ac90cac508981011299c4ceb819149e71f1bd',
 
   'src/third_party/dart/third_party/pkg/stream_channel':
    Var('dart_git') + '/stream_channel.git' + '@' + Var('dart_stream_channel_tag'),
